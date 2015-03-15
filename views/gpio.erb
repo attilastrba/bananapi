@@ -1,0 +1,9 @@
+cmd_on = "gpio write 1 1"
+cmd_off = "gpio write 1 0"
+
+value = `#{cmd_on}`
+sleep(0.5)
+value = `#{cmd_off}`
+
+
+
